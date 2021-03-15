@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body{
+    font-size: 10px;
+}
+
+header{
+    width: 100%;
+    height: 10em;
+    background-color: gray;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: gray;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section > div{
+    width: 20em;
+    height: 20em;
+    margin: 1em;
+    background-color: #ffffff;
+}
+footer{
+    width: 100%;
+    height: 6em;
+    background-color: gray;
+}
+
+/****************************************
+#       CONFIGURACION RESPONSIVE        *
+****************************************/
+
+@media only screen and (max-width:1440px) {
+    header{
+        background-color: red;
+    }
+    
+    section{
+        background-color: red;
+    }
+    section > div{
+        background-color: #ffffff;
+    }
+    footer{
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    header{
+        background-color: blue;
+    }
+    
+    section{
+        background-color: blue;
+    }
+    section > div{
+        background-color: #ffffff;
+    }
+    footer{
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    header{
+        background-color: green;
+    }
+    
+    section{
+        background-color: green;
+    }
+    section > div{
+        background-color: #ffffff;
+    }
+    footer{
+        background-color: green;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    header{
+        background-color: yellow;
+    }
+    
+    section{
+        background-color: yellow;
+    }
+    section > div{
+        background-color: #ffffff;
+    }
+    footer{
+        background-color: yellow;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header{
+        background-color: aqua;
+    }
+    
+    section{
+        background-color: aqua;
+    }
+    section > div{
+        background-color: #ffffff;
+    }
+    footer{
+        background-color: aqua;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    header{
+        background-color: purple;
+    }
+    
+    section{
+        background-color: purple;
+    }
+    section > div{
+        background-color: #ffffff;
+    }
+    footer{
+        background-color: purple;
+    }
+}
